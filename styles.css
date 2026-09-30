@@ -1,16 +1,15 @@
 /*  your css code here. If applicable */
-body{
-            display: flex;      
-            justify-content: center; 
-            align-items: center; 
-             height: 100vh;      
-        }
-#box{
+ #box{
         height: 200px;
         width: 200px;
         background-color: lightblue;
-        align-content: center;
-        text-align: center;
         border: 2px solid black;
         color: purple;
-        }
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
