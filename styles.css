@@ -4,12 +4,18 @@
         width: 200px;
         background-color: lightblue;
         border: 2px solid black;
-        color: purple;
+       
         position:absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-       text-align: center;
-       line-height: 204px;
+       
  }
+#box p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: purple;
+    margin: 0;
 }
